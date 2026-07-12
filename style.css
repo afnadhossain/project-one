@@ -1,4 +1,204 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Inter", sans-serif;
+
 }
+img{
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    padding: 10px 20px;
+    align-items: center;
+   
+}
+
+.nav-child2 ul {
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+    gap: 30px;
+
+}
+
+ul a {
+    text-decoration: none;
+    color:#575757 ;
+}
+
+ul a:hover {
+    background-color: aliceblue;
+}
+
+.common-button {
+
+    background-color: #1D4ED8;
+    border: none;
+    color: white;
+}
+
+.register-button {
+
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    padding: 5px 10px;
+
+}
+
+.register-button:hover {
+    background-color:darkgray;
+}
+
+.register-button:active {
+    background-color: aliceblue;
+      height: 40px;
+    width: 110px;
+}
+
+/*  navbar portion ends here */
+
+
+/*  header hero-section starts */
+
+ header {
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./images/banner.jpg');
+        height: 90vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+
+        
+ 
+
+  
+}
+
+.hero-parent{
+   color: white;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+
+
+}
+
+
+
+.hero-parent .first-parent .head-h1 {
+       
+       margin-top: 150px;
+       margin-bottom: 30px;
+       text-align: center;
+       font-family: "Inter", sans-serif;
+       font-size: 3rem;
+
+
+}
+
+
+.hero-parent .first-parent .head-para {
+    margin: 30px 0px;
+    font-family: "Inter", sans-serif;
+    font-size: 0.8rem;
+
+
+}
+
+.hero-button {
+
+    margin-top: 55% ; 
+    width: 210px;
+    height: 50px;
+    border-radius: 15px;
+    padding: 7px 14px;
+
+}
+
+.hero-button:hover {
+                 
+        background-color: grey;
+} 
+
+.hero-button:active {
+
+       width: 212px;
+       height: 60px;
+       background-color: aliceblue;
+
+} 
+/* header hero-section ends  */
+
+
+/* main section start */
+
+main {
+    background-color: white;
+    display: grid;
+    justify-content: center;
+  
+  
+  
+    
+
+}
+
+.main-hero-parent {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 20px;
+
+
+}
+
+.section-heading {
+                 text-align: center;
+                 margin: 80px auto 40px auto;
+
+}
+
+.speaker-img {
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+             
+}
+
+.speaker-info {
+             margin:20px 0px 25px 10px  ;
+              display: flex;
+              flex-direction: column;
+              gap: 20px; 
+     
+}
+
+
+.speaker-post {
+                color: #575757;
+}
+    
+.speaker-info a {
+                 text-decoration: none;
+                 color: #2563EB;
+}
+
+.main-sec {
+    margin: 20px auto 150px auto;
+}
+
+
+
+
+
+
+
+       
+
+
