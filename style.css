@@ -364,11 +364,30 @@ ul a:hover {
 
 }
 
-.standard-button:hover {
-    
-
-
+.standard-button:hover{
+    background-color: grey;
+    color: white;
 }
+
+.standard-button:active {
+
+    background-color: #2563EB;
+    color: white;
+    
+}
+
+
+.pro-button:hover {
+    background-color: grey;
+           
+}
+
+.pro-button:active {
+    background-color: white;
+    color: #2563EB;
+           
+}
+
 
 .contact-us-button {
     border: 1px solid #0D1B2A;
@@ -376,6 +395,19 @@ ul a:hover {
 
 
 }
+
+.team-button:hover {
+    background-color: gray;
+
+}
+
+.team-button:active {
+    background-color: #0D1B2A;
+    color: white;
+
+}
+     
+
 
 /* card section ends here  */
 
@@ -641,8 +673,79 @@ font-size:32px;
 /*  ai related section ends  */
 
 
+footer{ 
+    background-color: #0D1B2A;
+    padding: 20px 20px;
+
+  
+}
 
 
+
+.logo-parent{
+             padding: 20px 10px; 
+
+             display: flex;
+
+             justify-content: space-between;
+
+             align-items: center;
+
+             margin: 30px 20px  ;
+
+
+}
+
+
+.footer-logo {
+    height: 20px;
+    width: 80px;
+
+    
+
+}
+
+.dev-logo {
+
+width: 100px;
+
+}
+
+.social-logo {
+         display: flex;
+         justify-content: space-evenly;
+}
+
+
+.copyright-sec {
+
+    margin: 30px 20px 10px 20px;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+
+.fb-logo:hover {
+
+    box-shadow: -20px 30px 50px rgba(0, 0, 255, 0.704) ;
+
+
+
+}
+
+
+.twitter-logo:hover {
+    box-shadow: -20px 30px 50px skyblue ;
+}
+
+.linkedin-logo:hover {
+    box-shadow: -20px 30px 50px rgb(65, 181, 253);
+}
+
+.insta-logo:hover {
+    box-shadow: -20px 30px 50px rgba(255, 166, 0, 0.894) ;
+}
 
 
     
