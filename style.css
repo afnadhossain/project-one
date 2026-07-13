@@ -43,8 +43,8 @@ ul a:hover {
 
 .register-button {
 
-    height: 30px;
-    width: 100px;
+    height: 50px;
+    width: 130px;
     border-radius: 10px;
     padding: 5px 10px;
 
@@ -56,11 +56,11 @@ ul a:hover {
 
 .register-button:active {
     background-color: aliceblue;
-      height: 40px;
+      height: 50px;
     width: 110px;
 }
 
-/*  navbar portion ends here */
+/*  navbar section ends here */
 
 
 /*  header hero-section starts */
@@ -138,7 +138,9 @@ ul a:hover {
 
 /* main section start */
 
-main {
+/* speaker info section starts */
+
+.main-sec1 {
     background-color: white;
     display: grid;
     justify-content: center;
@@ -189,16 +191,188 @@ main {
                  color: #2563EB;
 }
 
-.main-sec {
+.main-sec2 {
     margin: 20px auto 150px auto;
 }
 
 
+/* speaker info section ends */
 
 
+/* card section starts  */
+
+.card-sec {
+           background-color: white;
+           margin: 20px auto 100px auto;
+
+}
 
 
+.card-sec .full-style-card  .card-head{ 
+                     text-align: center;
+                     margin-top:0px ;
+                     padding-top: 15px;
+}
 
+
+.card-head-para {
+                text-align: center;
+                margin: 20px auto 30px auto;
+                color: #575757;
+
+}
+
+.card-parent {
+              display: flex;
+              justify-content: center;
+              gap: 20px;
        
 
 
+
+}
+
+.single-card {
+    border: 1px solid #e5e7eb;;
+    border-radius:12px;
+    background-color: white;
+    padding: 40px 32px;
+    box-shadow: 0px 4px 10px rgb(0, 0, 0, 0.05);
+    width: 270px;
+
+
+
+}
+
+.single-card-head {
+     margin: 0px auto 10px 0px;
+     color: #888888;
+   
+
+        
+                   
+
+}
+
+
+.price-tag {
+            margin: 0px auto 10px 0px;
+            color: #0D1B2A;
+
+}
+
+.card-para-person {
+              margin: 0px auto 10px 0px;
+              color: #888888;
+
+
+
+}
+
+
+
+.card-border {
+              border: none;
+              border-bottom: 1px solid #e5e7eb;
+              margin: 28px auto 28px auto;
+}
+
+ .card-list-parent {
+    display: grid;
+    gap: 20px;
+              
+ }
+
+ .card-list-parent li::marker {
+   color: #2563EB;
+
+ }
+
+ /* pro card styling */
+
+ .pro-single-card {
+
+    border: 1px solid #0D1B2A;
+    border-radius:12px;
+    background: #0d1b2aFF;
+    padding: 40px 32px;
+    box-shadow: 0px 4px 10px rgb(0, 0, 0, 0.05);
+    width: 270px;
+
+      transform-style: preserve-3d;
+      box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.25), 
+                    0px 15px 25px rgba(0, 0, 0, 0.15); 
+    transform: translateZ(30px); 
+    
+ }
+
+ .pro-card-head {
+    color: #93C5FD;
+       margin: 0px auto 10px 0px;
+                 
+
+ }
+
+ .pro-card-pricing{
+    color: white;
+    margin: 0px auto 10px 0px;
+ }
+
+ .pro-card-list-parent {
+    color: white;
+ }
+
+/* pro card styling ends  */
+
+.all-card-button {
+    display: block;
+    height: 46px;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    border-radius:10px ;
+    margin: 30px 0px 30px 0px;
+
+   
+  
+
+}
+
+.mama{
+    text-align: center;
+     display: grid;
+    justify-content: center;
+}
+
+.standard-button{
+    border: 1px solid #2563EB ;
+    color: #2563EB;
+    background-color: white;
+
+}
+
+.standard-button:hover {
+    
+
+
+}
+
+.contact-us-button {
+    border: 1px solid #0D1B2A;
+    color: #0D1B2A;
+
+
+}
+
+/* card section ends here  */
+
+
+
+
+
+
+
+
+
+
+    
